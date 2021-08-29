@@ -1,0 +1,21 @@
+.liner {
+  background-image: linear-gradient(
+    to right top,
+    #eb55aa,
+    #dd4db8,
+    #ca49c8,
+    #af4ad8,
+    #894fe8,
+    #6c64f4,
+    #4875fb,
+    #0083ff,
+    #009afd,
+    #00aaea,
+    #00b6ce,
+    #00beb3
+  );
+  height: 6px;
+  width: 40%;
+  border-radius: 3px;
+  margin: 16px 0px;
+}

@@ -1,0 +1,59 @@
+.about {
+  padding-bottom: 48px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+}
+
+.photo {
+  padding-top: 20px;
+}
+
+.name {
+  color: rgb(0, 102, 255);
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.pos-name {
+  color: coral;
+  font-weight: 600;
+}
+
+.info {
+  font-size: 36px;
+}
+
+.imname {
+  color: blueviolet;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 720px) {
+  .top {
+    padding-top: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile {
+    height: 250px;
+    width: 240px;
+    /* padding-top: 30px; */
+  }
+  .info {
+    font-size: 18px;
+  }
+  .name {
+    font-size: 21px;
+  }
+}
